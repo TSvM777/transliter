@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Транслит</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            T.R.A.N.S.L.I.T.
+        </header>
+        <main class="main">
+            <div class="okoshko">
+                <input class="input" type="text" placeholder="Начните вводить текст">
+                <button id="addWord" class="button">Добавить</button>
+            </div>
+            <div class="tablica">
+                <div class="left">
+                    <div class="rusWord">
+                        <div class="number">1</div>
+                        <div id="tooltip" class="rus">Привет<span id="tooltipText">Привет</span></div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="engWord">
+                        <div id="tooltip" class="eng">Privet<span id="tooltipText">Privet</span></div>
+                        <div class="del"><button id="delWord" class="krestik"><img src="./icons/Group3.svg"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="delAll" class="knopka">
+                <div class="krestik"><img src="icons/Group3.svg" alt="delete"></div>
+                <div class="chisto">Очистить всё</div>
+            </button>
+        </main>
+
+        <script src="index.js"></script>
+    </div>
+</body>
+
+</html>
